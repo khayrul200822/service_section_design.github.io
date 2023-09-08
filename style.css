@@ -13,7 +13,9 @@ p,a,span{
   font-family: 'Poppins', sans-serif;
   font-size: 0.8em ;
 }
-
+.srv_main {
+  margin-top: 110px !important;
+}
 .srv_title h1{
   color: #2C7BFE;
   text-align: center;
@@ -26,6 +28,9 @@ p,a,span{
   display: block;
   margin: auto;
   margin-top: 10px;
+}
+.srv_main {
+  margin-top: 110px;
 }
 .services_box {
   padding: 10px;
@@ -103,8 +108,10 @@ p,a,span{
 
 .services_box:hover {
   background: #2C7BFE;
+  scale: 1.1;
   color: white;
   transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .services_box:hover .srv_logo{
   background-color: white;
@@ -149,7 +156,11 @@ p,a,span{
     right: 75px;
     top: -80px;
 }
+.services_box:hover {
 
+  scale: 1.1;
+
+}
   .srv4_box {
     position: absolute;
     left: 75px;
